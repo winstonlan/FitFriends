@@ -16,7 +16,12 @@ var database = firebase.database();
 var user = {
 	userId: "0000",
 	userName: "John Doe",
-	userGender: "M"
+	userGender: "M",
+	dow: "mon",
+	start: 0,
+	end: 1440,
+	pref: "none",
+	matches: []
 };
 
 /**
@@ -35,9 +40,29 @@ function writeFriend(fName, fGender, fAvail, fPref, fContact) {
 /**
 	Get all the friends in the database, that match with the availability preferences.
 */
-function getFriends() {
-	firebase.database().ref("friends/").once('value').then(function(snapshot) {
-		console.log(snapshot.val());
-  	});
+function getMatches() {
+	console.log(user.dow);
+	firebase.database().ref("friends/").once("value").then(function(snapshot) {
+
+		snapshot.forEach(function(childSnapshot) {
+			var childData = childSnapshot.toJSON();
+			// // Child data contains each of the users individual information.
+			if (childData["avail"].hasOwnProperty(user.dow)) {
+
+				console.log(user.start <= childData["avail"][user.dow]["start"]);
+				console.log(user.end >= childData["avail"][user.dow]["end"]);
+			}
+
+			if (childData["avail"].hasOwnProperty(user.dow) &&
+				user.start <= childData["avail"][user.dow]["start"] &&
+				user.end >= childData["avail"][user.dow]["end"]) {
+				user.matches.push(childData);
+				console.log("added")
+			}
+
+		});
+	});
 }
-getFriends();
+
+getMatches();
+console.log(user.matches);

@@ -34,11 +34,23 @@
 	</div>
 
 	<div>
-		<label class="desc" id="timeTitle">Time</label>
-		<input id="time" data-format="HH:mm" data-template="HH : mm" name="datetime" type="text">
+		<label class="desc" id="startTimeTitle">Start Time</label>
+		<input id="startTime" data-format="HH:mm" data-template="HH : mm" name="datetime" type="text">
 		<script>
 		$(function(){
-			$('#time').combodate({
+			$('#startTime').combodate({
+				firstItem: 'name',
+				minuteStep: 30
+			});
+		});
+		</script>
+	</div>
+	<div>
+		<label class="desc" id="endTimeTitle">End Time</label>
+		<input id="endTime" data-format="HH:mm" data-template="HH : mm" name="datetime" type="text">
+		<script>
+		$(function(){
+			$('#endTime').combodate({
 				firstItem: 'name',
 				minuteStep: 30
 			});

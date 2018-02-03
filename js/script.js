@@ -40,10 +40,17 @@ function writeFriend(fName, fGender, fAvail, fPref, fContact) {
 
 function searchAvailability() {
     let day = document.getElementById("availability").day.value;
-    let time = document.getElementById("availability").time.value;
-	let hour = parseInt(time.substring(0,2));
-	let min = parseInt(time.substring(3,5));
-	let totalMinutes = hour * 60 + min
+    let startTime = document.getElementById("availability").startTime.value;
+    let endTime = document.getElementById("availability").endTime.value;
+
+	let startHour = parseInt(startTime.substring(0,2));
+	let startMin = parseInt(startTime.substring(3,5));
+	let startTotal = startHour * 60 + startMin;
+
+	let endHour = parseInt(endTime.substring(0,2));
+	let endMin = parseInt(endTime.substring(3,5));
+	let endTotal = endHour * 60 + endMin;
+
 }
 
 /**

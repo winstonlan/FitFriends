@@ -37,19 +37,25 @@ function writeFriend(fName, fGender, fAvail, fPref, fContact) {
 	});
 }
 
-
-function searchAvailability() {
+/**
+	Function callback when search is clicked. Function will update user preferences
+*/
+function updatePreferences() {
     let day = document.getElementById("availability").day.value;
     let startTime = document.getElementById("availability").startTime.value;
     let endTime = document.getElementById("availability").endTime.value;
+	let preference = document.getElementById("availability").preference.value;
 
-	let startHour = parseInt(startTime.substring(0,2));
-	let startMin = parseInt(startTime.substring(3,5));
-	let startTotal = startHour * 60 + startMin;
+	user.dow = day;
+	user.start = convertHourToMin(startTime);
+	user.end = convertHourToMin(endTime);
+	user.pref = preference;
+}
 
-	let endHour = parseInt(endTime.substring(0,2));
-	let endMin = parseInt(endTime.substring(3,5));
-	let endTotal = endHour * 60 + endMin;
+function convertHourToMin(timeStr) {
+	let hour = parseInt(timeStr.substring(0,2));
+	let min = parseInt(timeStr.substring(3,5));
+	return hour * 60 + min;
 
 }
 

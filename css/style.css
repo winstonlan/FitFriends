@@ -2,16 +2,18 @@ body {
     margin: 0;
 }
 
-.sidenav {
+.navbar-color{
+ 	background: linear-gradient(-45deg, #99ffe6, #3333cc, #ff6633, #ccff33);
+}
 
+.sidenav {
 }
 
 .fixed {position: fixed; top: 0; }
 
-ul.nav a:hover { background-color: white !important; }
 
 .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    /* Same width as the sidebar + left position in px */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }

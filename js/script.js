@@ -50,6 +50,9 @@ function updatePreferences() {
 	user.start = convertHourToMin(startTime);
 	user.end = convertHourToMin(endTime);
 	user.pref = preference;
+
+	getMatches();
+	console.log(user.matches);
 }
 
 function convertHourToMin(timeStr) {
@@ -85,6 +88,3 @@ function getMatches() {
 		});
 	});
 }
-
-getMatches();
-console.log(user.matches);

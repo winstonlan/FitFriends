@@ -16,7 +16,7 @@ var database = firebase.database();
 var user = {
 	userId: "0000",
 	userName: "John Doe",
-	userGender: "M"
+	userGender: "M" 
 };
 
 /**
@@ -32,12 +32,11 @@ function writeFriend(fName, fGender, fAvail, fPref, fContact) {
 	});
 }
 
-/**
-	Get all the friends in the database, that match with the availability preferences.
-*/
-function getFriends() {
-	firebase.database().ref("friends/").once('value').then(function(snapshot) {
-		console.log(snapshot.val());
-  	});
+
+function searchAvailability() {
+    let day = document.getElementById("availability").day.value;
+    let time = document.getElementById("availability").time.value;
+	let hour = parseInt(time.substring(0,2));
+	let min = parseInt(time.substring(3,5));
+	let totalMinutes = hour * 60 + min
 }
-getFriends();

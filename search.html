@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+ 	<script src="js/node_modules/moment/min/moment.min.js"></script> 
+ 	<script src="js/combodate.js"></script>
+ 	<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+
+<form action="" id="availability" onsubmit="searchAvailability()">
+	<header>
+		<h1>Find a FitFriend</h1>
+	</header>
+	
+	<div>
+		<label class="desc" id="dayTitle">Day</label>
+		<select name="day">
+			<option value="mon">Monday</option>
+			<option value="tue">Tuesday</option>
+			<option value="wed">Wednesday</option>
+			<option value="thu">Thursday</option>
+			<option value="fri">Friday</option>
+			<option value="sat">Saturday</option>
+			<option value="sun">Sunday</option>
+		</select>
+	</div>
+
+	<div>
+		<label class="desc" id="timeTitle">Time</label>
+		<input id="time" data-format="HH:mm" data-template="HH : mm" name="datetime" type="text">
+		<script>
+		$(function(){
+			$('#time').combodate({
+				firstItem: 'name',
+				minuteStep: 30
+			});
+		});
+		</script>
+	</div>
+	<br><br>
+	<input id="search" name="search" type="submit" value="Search">
+</form>
+
+ 
+</body>
+</html>
+
+

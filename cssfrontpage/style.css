@@ -27,6 +27,7 @@ h1 {
   
 }
 body {
+	text-align: center;
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
@@ -49,3 +50,12 @@ body {
 	}
 }
 }
+
+
+ @media screen and (min-width: 20em) 
+ {
+    br 
+    { 
+       display: none;   // hide the BR tag for wider screens (i.e. disable the line break)
+    }
+ }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+ 	<script src="js/node_modules/moment/min/moment.min.js"></script> 
+ 	<script src="js/combodate.js"></script> 
+</head>
+<body>
+
+<form>
+	<h1 class="availability-form">Day</h1>
+	<select name="day">
+		<option value="monday">Monday</option>
+		<option value="tuesday">Tuesday</option>
+		<option value="wednesday">Wednesday</option>
+		<option value="thursday">Thursday</option>
+		<option value="friday">Friday</option>
+		<option value="saturday">Saturday</option>
+		<option value="sunday">Sunday</option>
+	</select>
+
+	<h1 class="availability-form">Start Time</h1>
+	<input id="time" data-format="HH:mm" data-template="HH : mm" name="datetime" type="text">
+	<script>
+	$(function(){
+		$('#time').combodate({
+			firstItem: 'name',
+			minuteStep: 30
+		});
+	});
+	</script>
+	<br><br>
+	<input type="submit">
+</form>
+
+ 
+</body>
+</html>

@@ -6,39 +6,29 @@
 <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-database.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
-<script type="text/javascript" src="script.js"></script>
 <head>
-  <meta charset="UTF-8">
-  <title>A Pen by  Damian Hii</title>
+    <meta charset="UTF-8">
+    <title>A Pen by  Damian Hii</title>
 
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Encode+Sans');
-  </style>
-</head>
-
-<body>
-
-  <head>
-    <title>Bootstrap Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Encode+Sans');
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="js/chosen_v1.8.3/docsupport/style.css" rel="stylesheet" />
     <link href="js/chosen_v1.8.3/chosen.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/node_modules/moment/min/moment.min.js"></script>
     <script src="js/combodate.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
     <script src="js/script.js"></script>
     <script src="js/chosen_v1.8.3/chosen.jquery.js"></script>
+    <script  src="js/index.js"></script>
+</head>
 
-  </head>
+<body>
 
   <nav class="navbar navbar-color head_font navbar-default">
     <div class="container-fluid">
@@ -119,38 +109,9 @@
     </form>
     </div>
 
-<div style="margin-left:16%;padding:1px
+<div id="results" style="margin-left:16%;padding:1px
             16px;height:1000px;">
-  <h2>FitFriends Found!</h2>
-  <h3>Click on a user to learn more</h3>
-  <script>
-    var names = ["Anthony", "Winston", "Angelo", "Damian"]
-    for (var i = 0; i < 20; i++){
-      document.write("<div class = 'col-sm-4'><div class = 'panel panel-default'><div class = 'panel-body'><h2 class = 'panel-title'>" + names[i % 4] + "</h2><p>Looking to run on Tuesday from 10 - 12</p><a href = '#'' class = 'btn btn-primary'>Connect</a></div>  </div></div>")
-    }
-  </script>
-  <!-- <div class = "col-sm-4">
-  <div class = "panel panel-default">
-    <img src="https://i.pinimg.com/originals/1b/78/82/1b7882a48f108dbaabfe08ed045ad852.png" alt="Panel image cap" style="width:150px;height:150px">
-    <div class = "panel-body">
-      <h2 class = "panel-title">Anthony</h2>
-      <p>Looking to run on Tuesday from 10 - 12</p>
-      <a href = "#" class = "btn btn-primary">Connect</a>
-    </div>
-  </div>
-  </div>
-  <div class = "col-sm-4">
-  <div class = "panel panel-default">
-    <img src="https://i.pinimg.com/originals/1b/78/82/1b7882a48f108dbaabfe08ed045ad852.png" alt="Panel image cap" style="width:150px;height:150px">
-    <div class = "panel-body">
-      <h2 class = "panel-title">Anthony</h2>
-      <p>Looking to run on Tuesday from 10 - 12</p>
-      <a href = "#" class = "btn btn-primary">Connect</a>
-    </div>
-  </div>
-  </div> -->
-</div>
 
-<script  src="js/index.js"></script>
+</div>
 </body>
 </html>

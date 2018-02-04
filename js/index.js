@@ -1,3 +1,4 @@
+
 $(function () {
     var sidenav = $('.sidenav');
     var top = sidenav.offset().top;

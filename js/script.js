@@ -1,7 +1,3 @@
-$( document ).ready(function() {
-	/**
-		Setup Firebase Database.
-	*/
 	var config = {
 	    apiKey: "AIzaSyDfm9YsOktUVw29r1V1g19-E9VDUhKDOik",
 	    authDomain: "fitfriends-5d536.firebaseapp.com",
@@ -24,6 +20,10 @@ $( document ).ready(function() {
 		pref: "none",
 		matches: []
 	};
+$( document ).ready(function() {
+	/**
+		Setup Firebase Database.
+	*/
 
 	/**
 		Write a friend's information to the database.
@@ -49,7 +49,6 @@ $( document ).ready(function() {
 	    let startTime = document.getElementById("availability").startTime.value;
 	    let endTime = document.getElementById("availability").endTime.value;
 		let preference = document.getElementById("availability").preference.value;
-		console.log(day);
 		user.dow = day;
 		user.start = convertHourToMin(startTime);
 		user.end = convertHourToMin(endTime);
@@ -77,23 +76,38 @@ $( document ).ready(function() {
 					}
 				}
 			});
-		console.log(user.matches);
-		for (var i = 0; i < user.matches.length; i++)
-		{
-			// display matches sorted by preference first
-
-		}
+		showMatches();
 		}, function(error) {
 			console.log("Houston, we have a problem");
 			console.log(error);
 		});
-		console.log(user.matches);
 	});
 
 	function convertHourToMin(timeStr) {
 		let hour = parseInt(timeStr.substring(0,2));
 		let min = parseInt(timeStr.substring(3,5));
 		return hour * 60 + min;
+
+	}
+
+	function showMatches() {
+		for (var i = 0; i < user.matches.length; i++)
+		{
+			let name = user.matches[i]["name"];
+			let gender = user.matches[i]["gender"] ? "Male" : "Female";
+			let phone = user.matches[i]["phone"];
+			let pref = user.matches[i]["pref"];
+
+			var html = "";
+			html += "<div><h1>" + name + "</h1></div>";
+			html += "<div><p>" + gender + "</p></div>";
+			if (pref != "none")
+				html += "<div><p>Looking for: " + pref + "</p></div>";
+			html += "<div><p>Contact me at " + phone + "</p></div>";
+
+			document.getElementById('results').innerHTML = html;
+
+		}
 
 	}
 });

@@ -1,7 +1,3 @@
-$( document ).ready(function() {
-	/**
-		Setup Firebase Database.
-	*/
 	var config = {
 	    apiKey: "AIzaSyDfm9YsOktUVw29r1V1g19-E9VDUhKDOik",
 	    authDomain: "fitfriends-5d536.firebaseapp.com",
@@ -24,6 +20,10 @@ $( document ).ready(function() {
 		pref: "none",
 		matches: []
 	};
+$( document ).ready(function() {
+	/**
+		Setup Firebase Database.
+	*/
 
 	/**
 		Write a friend's information to the database.

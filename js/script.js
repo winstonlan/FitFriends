@@ -38,19 +38,22 @@ $( document ).ready(function() {
 		});
 	}
 
+	$(".chosen-select").chosen()
+
 	/**
-		Function callback when search is clicked. Function will update user preferences
+		When search is clicked, function will update user preferences
 	*/
 	document.getElementById("submit").addEventListener("click", function(){
 
-	    let day = document.getElementById("availability").day.value;
+	    let day = $("#day").val();
 	    let startTime = document.getElementById("availability").startTime.value;
 	    let endTime = document.getElementById("availability").endTime.value;
 		let preference = document.getElementById("availability").preference.value;
-
+		console.log(day);
 		user.dow = day;
 		user.start = convertHourToMin(startTime);
 		user.end = convertHourToMin(endTime);
+		user.matches = [];
 		try{
 			if(user.start >= user.end) throw "Invalid Time";
 		}
@@ -63,11 +66,15 @@ $( document ).ready(function() {
 
 			snapshot.forEach(function(childSnapshot) {
 				var childData = childSnapshot.toJSON();
-
-				if (childData["avail"].hasOwnProperty(user.dow) &&
-					user.start <= childData["avail"][user.dow]["start"] &&
-					user.end >= childData["avail"][user.dow]["end"]) {
-					user.matches.push(childData);
+				for (var i = 0; i < user.dow.length; i++)
+				{
+					if (childData["avail"].hasOwnProperty(user.dow[i]) &&
+					user.start <= childData["avail"][user.dow[i]]["start"] &&
+					user.end >= childData["avail"][user.dow[i]]["end"]) 
+					{
+						user.matches.push(childData);
+						break;
+					}
 				}
 			});
 		}, function(error) {

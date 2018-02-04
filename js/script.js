@@ -69,13 +69,14 @@ $( document ).ready(function() {
 				{
 					if (childData["avail"].hasOwnProperty(user.dow[i]) &&
 					user.start <= childData["avail"][user.dow[i]]["start"] &&
-					user.end >= childData["avail"][user.dow[i]]["end"]) 
+					user.end >= childData["avail"][user.dow[i]]["end"])
 					{
 						user.matches.push(childData);
 						break;
 					}
 				}
 			});
+		console.log(user.matches);
 		showMatches();
 		}, function(error) {
 			console.log("Houston, we have a problem");
@@ -91,23 +92,35 @@ $( document ).ready(function() {
 	}
 
 	function showMatches() {
+		var html = "";
 		for (var i = 0; i < user.matches.length; i++)
 		{
+			console.log("hello");
 			let name = user.matches[i]["name"];
 			let gender = user.matches[i]["gender"] ? "Male" : "Female";
 			let phone = user.matches[i]["phone"];
 			let pref = user.matches[i]["pref"];
 
-			var html = "";
-			html += "<div><h1>" + name + "</h1></div>";
-			html += "<div><p>" + gender + "</p></div>";
-			if (pref != "none")
-				html += "<div><p>Looking for: " + pref + "</p></div>";
-			html += "<div><p>Contact me at " + phone + "</p></div>";
 
-			document.getElementById('results').innerHTML = html;
+			// html += "<div><h1>" + name + "</h1></div>";
+			// html += "<div><p>" + gender + "</p></div>";
+			// if (pref != "none")
+			// 	html += "<div><p>Looking for: " + pref + "</p></div>";
+			// html += "<div><p>Contact me at " + phone + "</p></div>";
 
-		}
+			// document.getElementById('results').innerHTML = html;
+
+		    html += "<div>";
+		    html += "<div class = 'panel panel-default' style = 'height:130px'>";
+		    html += "<div class = 'panel-body'>";
+		    html += "<h2 class = 'panel-title'>" + name + "</h2>";
+		    html += "<p>" + pref + "</p>";
+		    html += "</div></div></div>";
+
+
+    	}
+    	$("#result").html(html);
 
 	}
+
 });

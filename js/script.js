@@ -51,6 +51,12 @@ $( document ).ready(function() {
 		user.dow = day;
 		user.start = convertHourToMin(startTime);
 		user.end = convertHourToMin(endTime);
+		try{
+			if(user.start >= user.end) throw "Invalid Time";
+		}
+		catch(err) {
+			alert("Error: Invalid Time Period. Please enter a correct time period");
+		}
 		user.pref = preference;
 
 		firebase.database().ref("friends/").once("value").then(function(snapshot) {

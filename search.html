@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<form action="" id="availability" onsubmit="searchAvailability()">
+<form action="" id="availability" onsubmit="updatePreferences()">
 	<header>
 		<h1>Find a FitFriend</h1>
 	</header>
@@ -45,6 +45,7 @@
 		});
 		</script>
 	</div>
+
 	<div>
 		<label class="desc" id="endTimeTitle">End Time</label>
 		<input id="endTime" data-format="HH:mm" data-template="HH : mm" name="datetime" type="text">
@@ -57,8 +58,22 @@
 		});
 		</script>
 	</div>
+
+	<div>
+		<label class="desc" id="preference">Preference</label>
+		<select name="preference">
+			<option value="none">None</option>
+			<option value="weightlifting">Weightlifting</option>
+			<option value="swimming">Swimming</option>
+			<option value="running">Running</option>
+			<option value="yoga">Yoga</option>
+			<option value="cycling">Cyclying</option>
+			<option value="zumba">Zumba</option>
+		</select>
+	</div>
 	<br><br>
-	<input id="search" name="search" type="submit" value="Search">
+	<button type="button" id="submit">Submit</button>
+
 </form>
 
 

@@ -13,11 +13,11 @@
 
 .sidenav {
     font-family: 'Encode Sans', sans-serif;
+    width:200px;
 }
 
 .fixed {position: fixed; top: 0; }
 
-ul.nav a:hover { background-color: white !important; }
 
 .main {
     margin-left: 140px; /* Same width as the sidebar + left position in px */

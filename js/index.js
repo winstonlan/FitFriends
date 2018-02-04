@@ -6,6 +6,7 @@ $(function () {
       var y = $(this).scrollTop();
       if (y >= top) {
         sidenav.addClass('fixed');
+        // sidenav.addClass('col-sm-2')
       } else {
         sidenav.removeClass('fixed');
       }

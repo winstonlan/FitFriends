@@ -1,5 +1,5 @@
 h1 {
-	font-family: "Century Gothic";
+	font-family: 'Encode Sans', sans-serif;
 	font-size: 70px;
   padding: 20px;
   color: white;
@@ -11,13 +11,13 @@ h1 {
   transform: translate(-50%, -50%);
 }
 .button {
-  font-family: "Century Gothic";
+  font-family: 'Encode Sans', sans-serif;
   border-radius: 50px;
   font-size: 25px;
   background-color: #6699ff;
 }
 .description {
-  font-family: "Century Gothic";
+  font-family: 'Encode Sans', sans-serif;
   font-size: 20px;
   font-style: italic;
   text-align: center;

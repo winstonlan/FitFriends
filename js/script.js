@@ -77,6 +77,12 @@ $( document ).ready(function() {
 					}
 				}
 			});
+		console.log(user.matches);
+		for (var i = 0; i < user.matches.length; i++)
+		{
+			// display matches sorted by preference first
+
+		}
 		}, function(error) {
 			console.log("Houston, we have a problem");
 			console.log(error);

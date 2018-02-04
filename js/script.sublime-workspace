@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wordLis",
+				"wordListThree"
+			],
+			[
+				"update",
+				"updateXBound"
+			],
+			[
+				"newCoordin",
+				"newCoordinatePosition"
+			],
+			[
+				"nex",
+				"nextLocationNode"
+			],
+			[
+				"visted",
+				"visitedNode"
+			],
+			[
+				"left",
+				"leftNeighborCoord"
+			],
+			[
+				"down",
+				"downNeighborCoord"
+			],
+			[
+				"visited",
+				"visitedNode"
+			],
+			[
+				"Forward",
+				"FORWARD"
+			],
+			[
+				"instr",
+				"instructionSet"
+			],
+			[
+				"newCoord",
+				"newCoordinatePosition"
+			],
+			[
+				"newCoor",
+				"newCoordinatePosition"
+			],
+			[
+				"move",
+				"moveForward"
+			],
+			[
+				"proc",
+				"process_count"
+			],
+			[
+				"char",
+				"char_match"
+			],
+			[
+				"min",
+				"min_max_diff"
+			],
+			[
+				"mod",
+				"mod_binary_search"
+			],
+			[
+				"adj",
+				"adjust_index"
+			],
+			[
+				"rotation",
+				"rotation_count"
+			],
+			[
+				"rotat",
+				"rotation_count"
+			],
+			[
+				"high",
+				"highBinarySearch"
+			],
+			[
+				"bas",
+				"base_key"
+			],
+			[
+				"curren",
+				"current_start"
+			],
+			[
+				"curre",
+				"current_end"
+			],
+			[
+				"all",
+				"all_negative"
+			],
+			[
+				"print",
+				"print_data"
+			],
+			[
+				"sorte",
+				"sorted_endpoint_data"
+			],
+			[
+				"end",
+				"endpoint_data"
+			],
+			[
+				"response",
+				"response_code_str"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"PackageControl: Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Install Package Control"
+			]
+		],
+		"width": 448.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/winston/projects/FitFriends/search.html",
+		"/Users/winston/projects/FitFriends/index.js",
+		"/Users/winston/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/winston/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw2-code/mltools/base.py",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw2-code/mltools/transforms.py",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw2-code/mltools/linear.py",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw1-code/mltools/base.py",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw1-code/mltools/utils.py",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw1-code/mltools/transforms.py",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw1-code/mltools/README.md",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw1-code/mltools/linear.py",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw1-code/mltools/knn.py",
+		"/Users/winston/uci/year3/winter18/cs178/homework/178-hw1-code/mltools/datagen.py",
+		"/Users/winston/Desktop/headfirst_java/ch12/SimpleGui1B.java",
+		"/Users/winston/Desktop/headfirst_java/ch12/SimpleGui1.java",
+		"/Users/winston/Desktop/headfirst_java/ch10/TestBox.java",
+		"/Users/winston/Desktop/headfirst_java/ch11/ExTestDrive.java",
+		"/Users/winston/Desktop/headfirst_java/ch11/TestException.java",
+		"/Users/winston/Desktop/headfirst_java/ch5/SimpleDotComTestDrive.java",
+		"/Users/winston/Desktop/headfirst_java/ch6/ArrayListMagnet.java",
+		"/Users/winston/Desktop/headfirst_java/ch6/DotCom.java",
+		"/Users/winston/Desktop/headfirst_java/ch6/DotComBustTestDrive.java",
+		"/Users/winston/Desktop/headfirst_java/ch6/SimpleDotCom.java",
+		"/Users/winston/Desktop/headfirst_java/ch5/GameHelper.java",
+		"/Users/winston/Desktop/headfirst_java/ch5/SimpleDotComGame.java",
+		"/Users/winston/Desktop/headfirst_java/ch5/MultiFor.java",
+		"/Users/winston/Desktop/headfirst_java/ch5/SimpleDotCom.java",
+		"/Users/winston/Desktop/headfirst_java/ch4/Exercises.java",
+		"/Users/winston/Desktop/headfirst_java/ch4/SharpenYourPencil.java",
+		"/Users/winston/Desktop/headfirst_java/ch4/ElectricGuitar.java",
+		"/Users/winston/Desktop/headfirst_java/ch4/ElectricGuitar",
+		"/Users/winston/Desktop/headfirst_java/ch3/exercises.txt",
+		"/Users/winston/Desktop/headfirst_java/ch2/DrumKitTestDrive.java",
+		"/Users/winston/Desktop/headfirst_java/ch2/DrumKit.java",
+		"/Users/winston/Desktop/headfirst_java/ch2/MovieTestDrive.java",
+		"/Users/winston/Desktop/headfirst_java/ch2/Movie.java",
+		"/Users/winston/Desktop/headfirst_java/ch2/DogTestDrive.java",
+		"/Users/winston/Desktop/headfirst_java/ch2/Dog.java",
+		"/Users/winston/Desktop/headfirst_java/ch1/Shuffle1.java",
+		"/Users/winston/Desktop/headfirst_java/ch1/PhraseOMatic.java",
+		"/Users/winston/Desktop/headfirst_java/ch1/BeerSong.java",
+		"/Users/winston/Desktop/headfirst_java/ch1/MyFirstApp.java",
+		"/Users/winston/Desktop/headfirst_java/HelloWorld.java",
+		"/Users/winston/uci/year3/fall17/cs171/Wumpus_World_Project/Wumpus_World_Python_Shell/src/MyAI.py",
+		"/Users/winston/uci/year3/fall17/cs171/Wumpus_World_Project/Wumpus_World_Python_Shell/src/World.py",
+		"/Users/winston/uci/year3/fall17/cs171/Wumpus_World_Project/Wumpus_World_Python_Shell/src/ManualAI.py",
+		"/Users/winston/uci/year3/fall17/cs171/Wumpus_World_Project/Wumpus_World_Python_Shell/src/Main.py",
+		"/Users/winston/uci/year3/fall17/cs171/Wumpus_World_Project/Wumpus_World_Python_Shell/src/Agent.py",
+		"/Users/winston/uci/year3/fall17/cs171/Wumpus_World_Project/Wumpus_World_Python_Shell/src/RandomAI.py",
+		"/Users/winston/projects/interview-prep/practice-questions/lru_cache.py",
+		"/Users/winston/Desktop/pandora_technical1.py",
+		"/Users/winston/Desktop/MyAI.py",
+		"/Users/winston/Desktop/linkedin_technical2.py",
+		"/Users/winston/projects/interview-prep/practice-questions/second_smallest.py",
+		"/Users/winston/projects/interview-prep/practice-questions/two_sum_3.py",
+		"/Users/winston/projects/interview-prep/interview-bit/binary-search/rotated_sorted_array_search.py",
+		"/Users/winston/projects/interview-prep/practice-questions/merge_sorted_array.py",
+		"/Users/winston/projects/interview-prep/practice-questions/continue_fib.py",
+		"/Users/winston/projects/interview-prep/practice-questions/task_scheduler.py",
+		"/Users/winston/projects/interview-prep/practice-questions/meeting_rooms.py",
+		"/Users/winston/uci/year2/fall16/ics45c/hw3/String.cpp",
+		"/Users/winston/uci/year2/fall16/ics45c/hw3/String.h",
+		"/Users/winston/uci/year2/fall16/ics45c/hw3/string_test.cpp",
+		"/Users/winston/projects/interview-prep/practice-questions/number_of_islands.py",
+		"/Users/winston/projects/interview-prep/practice_questions/number_of_islands.py",
+		"/Users/winston/uci/year3/fall17/cs171/Wumpus_World_Project/task_list.txt",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/bt_level_order.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/merge_sorted_array.py",
+		"/Users/winston/projects/interview-prep/interview-bit/linked-lists/reverse_list.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/subsets.py",
+		"/Users/winston/projects/interview-prep/interview-bit/linked-lists/palindrome_linked_list.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/reverse_linked_list.py",
+		"/Users/winston/projects/interview-prep/interview-bit/linked-lists/inserection_point.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/bst_iterator.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/add_binary.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/product_except_self.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/bulbs.py",
+		"/Users/winston/projects/interview-prep/interview-bit/bit-manipulation/single_number.py",
+		"/Users/winston/projects/interview-prep/interview-bit/bit-manipulation/num_1_bits.py",
+		"/Users/winston/projects/interview-prep/interview-bit/bit-manipulation/min_xor_value.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/remduplink.py",
+		"/Users/winston/projects/interview-prep/company_prep/facebook/list_cycle.py",
+		"/Users/winston/Documents/internship/I - 18/bloomberg/technical1.py",
+		"/Users/winston/projects/interview-prep/interview-bit/binary-search/square_root_of_integer.py",
+		"/Users/winston/Documents/internship/I - 18/linkedin_technical/technical1.py",
+		"/Users/winston/projects/interview-prep/interview-bit/binary-search/implement_power_function.py",
+		"/Users/winston/projects/interview-prep/pramp/sales_path.py",
+		"/Users/winston/projects/interview-prep/linkedin/isomorphic_strings.py",
+		"/Users/winston/projects/interview-prep/interview-bit/two-pointers/array_three_pointers.py",
+		"/Users/winston/projects/interview-prep/interview-bit/two-pointers/remove_dup_from_sorted_array.py",
+		"/Users/winston/projects/interview-prep/interview-bit/two-pointers/intersection_of_sorted_arrays.py",
+		"/Users/winston/projects/interview-prep/interview-bit/two-pointers/intersection_of_sorted_arrays",
+		"/Users/winston/projects/interview-prep/interview-bit/two-pointers/three_sum.py",
+		"/Users/winston/projects/interview-prep/interview-bit/string/justified_text.py",
+		"/Users/winston/projects/interview-prep/interview-bit/string/min_char_required_for_palindrome.py",
+		"/Users/winston/Desktop/LinkedIn Interview",
+		"/Users/winston/projects/interview-prep/interview-bit/string/roman_to_integer.py",
+		"/Users/winston/projects/interview-prep/interview-bit/string/roman_to_integer",
+		"/Users/winston/projects/interview-prep/interview-bit/string/length_of_last_word.py",
+		"/Users/winston/projects/interview-prep/interview-bit/string/longest_palindrome_substring.py",
+		"/Users/winston/projects/interview-prep/interview-bit/string/palindrome_string.py",
+		"/Users/winston/projects/interview-prep/interview-bit/binary-search/rotated-array.py",
+		"/Users/winston/projects/interview-prep/interview-bit/binary-search/search_for_a_range.py",
+		"/Users/winston/projects/interview-prep/interview-bit/binary-search/search_for_a_range",
+		"/Users/winston/projects/interview-prep/interview-bit/binary-search/count-element-occurence.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/grid-unique-paths.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/rearrange-array.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/numbers-of-length-N-and-value-less-than-k.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/greatest-common-divisor.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/reverse-integer.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/prime-numbers.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/verify-prime.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/excel-column-number.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/prime-sum.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/all-factors.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math/binary-representation.py",
+		"/Users/winston/projects/learn-java/ch1/quiz.txt",
+		"/Users/winston/projects/interview-prep/interview-bit/math/math-bug2.py",
+		"/Users/winston/projects/interview-prep/interview-bit/all-factors.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math-bug1.py",
+		"/Users/winston/projects/interview-prep/interview-bit/math-bug1",
+		"/Users/winston/projects/interview-prep/interview-bit/set-matrix-zeros.py",
+		"/Users/winston/projects/interview-prep/interview-bit/find-duplicate-in-array.py",
+		"/Users/winston/projects/interview-prep/interview-bit/merge-overlapping-intervals.py",
+		"/Users/winston/projects/interview-prep/interview-bit/largest-number.py",
+		"/Users/winston/Desktop/twitter_codescreen/twitter_q2.py",
+		"/Users/winston/Desktop/twitter_codescreen/twitter_q1.py"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 115.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "script.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 353.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
